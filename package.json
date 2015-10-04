@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "server": "webpack-dev-server",
-    "hot": "webpack-dev-server -d --hot --inline --display-reasons --display-error-details --history-api-fallback --progress --colors --port 8080 --host 0.0.0.0"
+    "server": "node server.js"
   },
   "author": "louis center <louis@lookahead.com.au> (https://github.com/louiscntr)",
   "license": "ISC",
