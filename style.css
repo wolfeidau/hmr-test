@@ -1,0 +1,16 @@
+.base {
+  padding: 6px;
+  display: table;
+}
+
+.pink {
+  composes: base;
+  background: pink;
+  color: #333;
+}
+
+.green {
+  composes: base;
+  background: green;
+  color: white;
+}
