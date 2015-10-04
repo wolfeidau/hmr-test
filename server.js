@@ -7,7 +7,10 @@ var config = {
     filename: 'bundle.js',
     publicPath: '/'
   },
-
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin()
+  ],
   module: {
     loaders: [
       { test: /(\.js$|\.jsx$)/, loader: 'babel-loader' },
